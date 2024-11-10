@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    display:flex;
+    align-items:center;
+    min-height:100vh;
+    justify-content:center;
+    background:url("C:/Users/vishn/Downloads/login.jpg") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.container{
+    background-color: orange;
+    text-align:center;
+    width:250px;
+    height:300px;
+    border-radius: 10px;
+    
+}
+.input{
+    margin-top:10px;
+    
+
+}
+input{
+    margin-top:10px;
+    height:20px;
+    border-radius:5px;
+}
+button{
+    margin-top:15px;
+    height:30px;
+    width:70px;
+    border-radius:10px;
+    cursor:pointer;
+    background-color: white;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.login a:hover{
+    color:red;
+}
